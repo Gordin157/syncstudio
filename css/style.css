@@ -1,0 +1,216 @@
+@font-face {
+    font-family: fonte;
+    src: url(https://fontsfree.net//wp-content/fonts/basic/sans-serif//FontsFree-Net-Geometria-ExtraBold.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    border: none;
+    border: 0;
+    padding: 0;
+    font-style: normal;
+}
+  
+body {
+    font-size: 100%;
+    background-color: #151821;
+}
+
+.titulo {
+    border-radius: 5px 5px 0px 0px;
+    background-color: #12141c;
+    height: 5vw;
+}
+
+.imagem-header {
+    position: absolute;
+    width: 90px;
+    left: 8vw;
+    top: -14px;
+}
+
+.imagem-header:hover {
+    transition: all .5s ease;
+    width: 100px;
+    top: -20px;
+}
+
+.botao-menu {
+    position: absolute;
+    background-image: linear-gradient(to right, #00498e,#00498e);
+    width: 115px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    font-family: fonte;
+    border-radius: 10px;
+    right: 3vw;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-menu:hover {
+    transition: all .5s ease;
+    filter: drop-shadow(0px 0px 7px #00498e);
+}
+
+.botao-menu1 {
+    position: absolute;
+    font-family: fonte;
+    font-size: 20px;
+    color: white;
+    left: 38vw;
+    top: 15px;
+    border-bottom: 3px solid #00498e;
+}
+
+.botao-menu1:hover {
+    transition: all .5s ease;
+    filter: drop-shadow(0px 0px 7px #00498e);
+}
+
+.botao-menu2 {
+    position: absolute;
+    font-family: fonte;
+    font-size: 20px;
+    color: white;
+    left: 48vw;
+    top: 15px;
+    border-bottom: 3px solid #00498e;
+}
+
+.botao-menu2:hover {
+    transition: all .5s ease;
+    filter: drop-shadow(0px 0px 7px #00498e);
+}
+
+.imagem-main {
+    position: absolute;
+    width: 680px;
+    right: 4vw;
+    top: 5.8vw;
+}
+
+.texto-syncpng {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: fonte;
+    left: 3vw;
+    top: 15vw;
+}
+
+.texto-servidor {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: fonte;
+    left: 3vw;
+    top: 19vw;
+}
+
+.texto-fivem {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: fonte;
+    left: 3vw;
+    top: 23vw;
+}
+
+.texto-explicando {
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    left: 3vw;
+    top: 28vw;
+}
+
+.texto-garanta {
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    left: 3vw;
+    top: 30vw;
+}
+
+.texto-clicando {
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    left: 3vw;
+    top: 32.3vw;
+}
+
+.botao-main {
+    position: absolute;
+    width: 250px;
+    height: 45px;
+    border: 1px solid #00498e;
+    border-radius: 5px;
+    background-color: #151821;
+    color: #00498e;
+    font-family: fonte;
+    font-size: 15px;
+    left: 3vw;
+    top: 37vw;
+}
+
+.botao-main:hover {
+    transition: all .5s ease;
+    cursor: pointer;
+    background-color: #00498e;
+    color: white;
+    filter: drop-shadow(0px 0px 7px #00498e);
+}
+
+.texto-conectar {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: fonte;
+    top: 58vw;
+    left: 43vw;
+    align-items: center;
+}
+
+
+.texto-leia {
+    position: absolute;
+    color: #4e5057;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    left: 45vw;
+    top: 62vw;
+}
+
+.box-div {
+    position: absolute;
+    background-color: #12141c;
+    width: 330px;
+    height: 340px;
+    left: 5vw;
+    top: 67vw;
+    border: 1px solid #373940;
+}
+
+.imagem-box {
+    position: absolute;
+    width: 200px;
+    object-fit: cover;
+}
